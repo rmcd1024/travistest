@@ -1,0 +1,23 @@
+---
+output:
+  md_document:
+    variant: markdown_github
+---
+
+
+
+```{r, echo=FALSE}
+library(knitr)
+opts_chunk$set(comment=NA)
+```
+
+## Introduction
+
+this is a test of travis-automated execution.
+
+```{r}
+x <- rnorm(1e03)
+summary(x)
+hist(x)
+```
+
