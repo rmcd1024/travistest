@@ -1,0 +1,11 @@
+Title: Test of Travis build
+Author: 'Robert McDonald'
+Maintainer: Robert McDonald <rmcd1024@gmail.com>
+Description: Travis tests
+Depends:
+    R (>= 3.0.0)
+Requires:
+    knitr,
+    rmarkdown
+License: MIT + file LICENSE
+LazyData: true
