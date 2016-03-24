@@ -5,3 +5,4 @@ sudo: required
 
 install:
   - Rscript -e "library(knitr); knit('README.Rmd')"
+
